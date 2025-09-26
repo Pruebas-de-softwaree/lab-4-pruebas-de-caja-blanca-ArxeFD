@@ -15,7 +15,7 @@ def process_grades(students):
         
         average = sum(grades) / len(grades)
         total_grades += average
-        # counter += 1
+        #counter += 1
 
         if average > 70:  
             passed.append(name)
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     students = [
         {'name': 'Ana', 'grades': [80, 90, 85]},
         {'name': 'Luis', 'grades': [70, 70, 70]},
-        {'name': 'Jorge', 'grades': []},
+        {'name': 'Jorge', 'grades': None},
         {'name': 'Marta', 'grades': [40, 45, 50]}
     ]
 
